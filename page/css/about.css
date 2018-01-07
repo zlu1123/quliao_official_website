@@ -1,0 +1,84 @@
+body {
+    background-color: #f4f3f4;
+}
+
+.page-img #first-about-div {
+    height: 640px;
+    background: url("../img/about/about-1.png") no-repeat center right;
+    background-size: auto;
+    position: relative;
+}
+
+#page-about-first p {
+    margin: 0 0;
+}
+
+.company-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    width: 17px;
+    height: 17px;
+    background-image: linear-gradient(18deg, #d70b15 0%, #fc7919 100%);
+    border-radius: 10px;
+    float: left
+}
+.company-list {
+    font-size: 33px;
+    color: #313131;
+    margin-left: 30px;
+    margin-bottom: 90px;
+}
+
+.company-history-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    margin-left: 4px;
+    width: 8px;
+    height: 8px;
+    background-image: linear-gradient(18deg, #d70b15 0%, #fc7919 100%);
+    border-radius: 8px;
+    float: left;
+    margin-bottom: 90px;
+}
+
+.company-history-list {
+    font-size: 20px;
+    color: #7d7d7d;
+    margin-left: 35px;
+
+}
+
+.company-history-info {
+    margin-left: 20px;
+    color: #7d7d7d;
+}
+
+.company-history-list-info {
+    margin-top: 20px;
+    position: relative;
+    font-size: 20px
+}
+
+.list-distract {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.company-history-icon-more {
+    position: absolute;
+    top: 25%;
+    margin-top: -4px;
+    margin-left: 4px;
+    width: 8px;
+    height: 8px;
+    background-image: linear-gradient(18deg, #d70b15 0%, #fc7919 100%);
+    border-radius: 8px;
+    float: left;
+    margin-bottom: 90px;
+}
+.company-history-info-more {
+    margin-left: 140px;
+    color: #7d7d7d;
+}

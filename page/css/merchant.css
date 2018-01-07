@@ -1,0 +1,42 @@
+body {
+    background-color: #f4f3f4;
+}
+
+.page-img #first-merchant-div {
+    height: 509px;
+    background: url("../img/merchant/merchant-1.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.page-img #second-merchant-div {
+    margin-top: 10px;
+    height: 818px;
+    background: url("../img/merchant/merchant-2.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.page-img #third-merchant-div {
+    margin-top: 10px;
+    height: 1345px;
+    background: url("../img/merchant/merchant-3.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.page-img #fourth-merchant-div {
+    margin-top: 10px;
+    height: 509px;
+    background: url("../img/merchant/merchant-4.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.page-img #fifth-merchant-div {
+    margin-top: 10px;
+    height: 660px;
+    background: url("../img/merchant/merchant-5.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}

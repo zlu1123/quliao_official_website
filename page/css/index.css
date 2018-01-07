@@ -1,0 +1,128 @@
+body {
+    font-family: MicrosoftYaHei;
+    user-select:none;
+}
+
+.page-nav-top{
+    height: 72px;
+    background-color: #313131;
+}
+.page-nav-top .container {
+    padding-top: 11px;
+}
+.page-nav-top .container a{
+    color: #ffffff;
+    font-size: 14px;
+}
+.page-nav {
+    height: 100px;
+}
+
+.page-nav .container {
+    padding-top: 10px;
+    overflow: hidden;
+}
+.page-nav .container  a{
+    color: #7d7d7d;
+    font-size: 16px;
+}
+.page-nav .container a div {
+    padding-bottom:10px;
+    border-bottom: 2px solid transparent;
+}
+.page-nav .container a div:hover{
+    /*transition:color 1s;*/
+    transition: all 1s;
+    color: #e95c12;
+    padding-bottom:10px;
+    border-bottom: 2px solid #e95c12
+}
+.page-footer .container #footer-href-nav {
+    margin:70px 0;
+    padding: 0 10px;
+    font-size: 17px;
+    color: #797878
+}
+.page-footer .container a{
+    text-decoration:none;
+    color: #797878
+}
+
+.page-footer .container #footer-href-nav div{
+    display:inline;
+    margin: 0 70px;
+}
+
+#footer-link a{
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+#footer-link p{
+    padding-top: 11px;
+}
+#footer-link li {
+    text-align: left;
+}
+
+#zihong-state {
+    color: #bab9b9;
+    font-size: 10px;
+    padding-left: 10px
+}
+
+#zihong-statement .container {
+    padding-top: 0px;
+}
+#zihong-statement button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid 2px #eeeeee;
+    height: 38px;
+    width: 145px;
+}
+#zihong-statement span {
+    color: #2d7ef8;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0px;
+    letter-spacing: 0px;
+}
+
+/*图片浮动效果 start*/
+#first-index:hover {
+    -webkit-animation-name:bounce;
+    animation-name:bounce;
+}
+#second-index:hover {
+    -webkit-animation-name:swing;
+    animation-name:swing;
+}
+#third-index:hover {
+    -webkit-animation-name:pulse;
+    animation-name:pulse;
+}
+#fourth-index:hover {
+    -webkit-animation-name:rubberBand;
+    animation-name:rubberBand;
+}#six-index:hover {
+     -webkit-animation-name:tada;
+     animation-name:tada;
+ }
+ #seventh-index:hover {
+     -webkit-animation-name: wobble;
+     animation-name: wobble;
+ }
+ /*图片浮动效果end*/
+
+.display-inline {
+    display:inline
+}
+
+#first-index-div {
+    height: 500px;
+    background: url("../img/index/index-1.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
