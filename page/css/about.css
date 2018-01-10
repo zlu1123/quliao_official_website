@@ -27,7 +27,12 @@ body {
     font-size: 33px;
     color: #313131;
     margin-left: 30px;
-    margin-bottom: 90px;
+}
+
+.company-line {
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 43px;
+    margin-bottom: 70px;
 }
 
 .company-history-icon {
@@ -47,7 +52,6 @@ body {
     font-size: 20px;
     color: #7d7d7d;
     margin-left: 35px;
-
 }
 
 .company-history-info {
@@ -56,14 +60,20 @@ body {
 }
 
 .company-history-list-info {
-    margin-top: 20px;
+    padding-left: 120px;
     position: relative;
     font-size: 20px
 }
 
+.company-history-line {
+    border-bottom: 1px solid #eeeeee;
+    margin: 15px 310px 15px 260px
+}
+
 .list-distract {
-    margin-top: 90px;
-    margin-bottom: 90px;
+    position: relative;
+    left: 10%;
+    margin-top: 43px;
 }
 
 .company-history-icon-more {
@@ -82,3 +92,69 @@ body {
     margin-left: 140px;
     color: #7d7d7d;
 }
+
+.container-about {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#company-culture .footer-href-nav {
+    text-align: center;
+    margin:70px 0;
+    padding: 0 10px;
+    font-size: 17px;
+    color: #797878
+}
+
+#company-culture .container a{
+    text-decoration:none;
+    color: #797878
+}
+
+#company-culture .container .footer-href-nav .segmenting-line{
+    display:inline;
+    margin: 0 78px;
+    float: left;
+}
+
+.about-culture-img {
+    height: 9px;
+    background-image: url("../img/about/about-culture.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 61px;
+    margin-top: 30px;
+}
+.about-culture-text {
+    display: none;
+    padding-bottom: 30px;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 25px;
+    background: -webkit-linear-gradient(left, #da1315, #fb7519);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-culture-title {
+    padding-top: 35px;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 25px;
+}
+
+.about-culture-title-hover {
+    padding-top: 15px;
+}
+
+.about-culture-text-hover {
+    display: inline;
+}
+
+.about-culture-img-hover {
+    margin-bottom: 41px;
+}
+
+
+
+

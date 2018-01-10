@@ -1,6 +1,7 @@
 body {
     font-family: MicrosoftYaHei;
     user-select:none;
+    background-color: #f4f3f4;
 }
 
 .page-nav-top{
@@ -11,11 +12,12 @@ body {
     padding-top: 11px;
 }
 .page-nav-top .container a{
-    color: #ffffff;
+    color: #7d7d7d;
     font-size: 14px;
 }
 .page-nav {
     height: 100px;
+    background-color: #ffffff;
 }
 
 .page-nav .container {
@@ -37,7 +39,7 @@ body {
     padding-bottom:10px;
     border-bottom: 2px solid #e95c12
 }
-.page-footer .container #footer-href-nav {
+.page-footer .container .footer-href-nav {
     margin:70px 0;
     padding: 0 10px;
     font-size: 17px;
@@ -48,7 +50,7 @@ body {
     color: #797878
 }
 
-.page-footer .container #footer-href-nav div{
+.page-footer .container .footer-href-nav div{
     display:inline;
     margin: 0 70px;
 }
@@ -91,29 +93,29 @@ body {
 }
 
 /*图片浮动效果 start*/
-#first-index:hover {
-    -webkit-animation-name:bounce;
-    animation-name:bounce;
-}
-#second-index:hover {
-    -webkit-animation-name:swing;
-    animation-name:swing;
-}
-#third-index:hover {
-    -webkit-animation-name:pulse;
-    animation-name:pulse;
-}
-#fourth-index:hover {
-    -webkit-animation-name:rubberBand;
-    animation-name:rubberBand;
-}#six-index:hover {
-     -webkit-animation-name:tada;
-     animation-name:tada;
- }
- #seventh-index:hover {
-     -webkit-animation-name: wobble;
-     animation-name: wobble;
- }
+/*#first-index:hover {*/
+    /*-webkit-animation-name:bounce;*/
+    /*animation-name:bounce;*/
+/*}*/
+/*#second-index:hover {*/
+    /*-webkit-animation-name:swing;*/
+    /*animation-name:swing;*/
+/*}*/
+/*#third-index:hover {*/
+    /*-webkit-animation-name:pulse;*/
+    /*animation-name:pulse;*/
+/*}*/
+/*#fourth-index:hover {*/
+    /*-webkit-animation-name:rubberBand;*/
+    /*animation-name:rubberBand;*/
+/*}#six-index:hover {*/
+     /*-webkit-animation-name:tada;*/
+     /*animation-name:tada;*/
+ /*}*/
+ /*#seventh-index:hover {*/
+     /*-webkit-animation-name: wobble;*/
+     /*animation-name: wobble;*/
+ /*}*/
  /*图片浮动效果end*/
 
 .display-inline {
@@ -121,8 +123,30 @@ body {
 }
 
 #first-index-div {
-    height: 500px;
+    height: 686px;
     background: url("../img/index/index-1.png") no-repeat center center;
     background-size: cover;
     position: relative;
 }
+
+#second-index-div {
+    height: 680px;
+    background: url("../img/index/index-2.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#fourth-index-div {
+    height: 680px;
+    background: url("../img/index/index-4.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#sixth-index-div {
+    height: 680px;
+    background: url("../img/index/index-6.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+

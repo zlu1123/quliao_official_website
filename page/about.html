@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/about.css">
 </head>
 <body>
+    <script type="text/javascript">
+        if(navigator.userAgent.match(/mobile/i)) {
+            top.location='https://www.zihongkeji.com/app/app_download/app_download.html';
+        }
+    </script>
     <div class="page-nav-top">
         <div class="nav">
             <div class="container">
@@ -77,7 +82,7 @@
     <div class="page-img">
         <div class="container">
             <div id="first-about-div">
-                <div id="first-about-text" style="position: relative;top: 75%;line-height: 45px;">
+                <div id="first-about-text" style="position: relative;top: 75%;left: 10%;line-height: 45px;">
                     <div style="color: #313131 ;font-size: 29px;">一群有趣的灵魂</div>
                     <div style="color: #313131; font-size: 29px;margin-left: 86px;">立志撩起零售业新形态</div>
                 </div>
@@ -85,16 +90,17 @@
         </div>
     </div>
     <div class="page-about-info">
-        <div class="container">
-            <div style="position: relative" class="list-distract">
+        <div class="container container-about">
+            <div style="position: relative; left: 10%;" class="list-distract" >
                 <div class="company-icon"></div>
                 <div class="company-list">公司简介</div>
             </div>
+            <div class="company-line"></div>
             <div id="page-about-first">
                 <div style="float: right">
                     <img src="img/about/about-2.png" class="img-responsive">
                 </div>
-                <div style="float: left;font-size: 20px;line-height: 33px;">
+                <div style="float: left;font-size: 20px;line-height: 33px; padding-left: 112px; margin-bottom: 80px;">
                     <p class="text-left">资弘（上海）网络科技有限公司</p>
                     <p class="text-left">于2016年由上海资邦集团投资成立.</p>
                     <p class="text-left">其团队具备多年零售管理、产品开发、品牌营销经验</p>
@@ -115,51 +121,59 @@
         </div>
     </div>
     <div id="company-history">
-        <div class="container">
-            <div style="position: relative;" class="list-distract">
+        <div class="container container-about" style="margin-top: 22px;padding-bottom: 64px" >
+            <div class="list-distract">
                 <div class="company-icon"></div>
                 <div class="company-list">发展历史</div>
             </div>
+            <div class="company-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon"></div>
                 <div class="display-inline company-history-list">2016-08</div>
                 <div class="display-inline company-history-info">资弘（上海）网络科技有限公司成立，获资邦集团千万领投</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon"></div>
                 <div class="display-inline company-history-list">2017-04</div>
                 <div class="display-inline company-history-info">趣撩1.0版本上线。赋能合作商户，客流尽有</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon-more"></div>
                 <div class="display-inline company-history-list">2017-06</div>
                 <div class="display-inline company-history-info">入驻微信支付服务商，同时优化更新会员体系</div>
                 <div class="company-history-info-more">赋能合作商户对会员更精细化管理</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon-more"></div>
                 <div class="display-inline company-history-list">2017-07</div>
                 <div class="display-inline company-history-info">营销产品持续上线，契合零售业形态，从提升客单价、唤醒沉睡用户</div>
                 <div class="company-history-info-more">增加复购率几个维度赋能零售商户</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon-more"></div>
                 <div class="display-inline company-history-list">2017-08</div>
                 <div class="display-inline company-history-info">趣撩一周年，趣撩2.0，开放式合作，携手同城优质供应商</div>
                 <div class="company-history-info-more"> 服务于城市零售店主，开启赋能新篇章——趣撩在手，采购自由</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon-more"></div>
                 <div class="display-inline company-history-list">2017-08</div>
                 <div class="display-inline company-history-info"> 趣撩产品持续优化，上线比价采购，互评机制</div>
                 <div class="company-history-info-more">赋能合作商户采购节约采购成本</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon-more"></div>
                 <div class="display-inline company-history-list">2017-09</div>
                 <div class="display-inline company-history-info">入住商户2600家。根据产品数据统计，产品营销版块</div>
                 <div class="company-history-info-more">赋能合作商户营业额提升10%以内，采购版块节省成本5%以内</div>
             </div>
+            <div class="company-history-line"></div>
             <div class="company-history-list-info">
                 <div class="display-inline company-history-icon"></div>
                 <div class="display-inline company-history-list">2017-10</div>
@@ -168,17 +182,102 @@
         </div>
     </div>
 
-    <div>
-        <div class="container">
-            <div style="position: relative;" class="list-distract">
+    <div id="company-culture" style="margin-top: 22px;">
+        <div class="container container-about">
+            <div class="list-distract">
                 <div class="company-icon"></div>
                 <div class="company-list">企业文化</div>
             </div>
+            <div class="company-line"></div>
+            <div class="row" style="margin-bottom: 99px;text-align: center;padding-left: 55px;padding-right: 55px">
+                <div class="col-md-4" id="culture-first" style="width:25%;border-right: 1px solid #eeeeee;padding-top: 20px">
+                    <div id="culture-first-title" class="about-culture-title">趣撩愿景</div>
+                    <div id="culture-first-img" class="about-culture-img"></div>
+                    <div id="culture-first-text" class="about-culture-text">让零售买卖更高效</div>
+                </div>
+                <div class="col-md-4" id="culture-second" style="width:25%;border-right: 1px solid #eeeeee;padding-top: 20px">
+                    <div id="culture-second-title" class="about-culture-title">趣撩使命</div>
+                    <div id="culture-second-img" class="about-culture-img"></div>
+                    <div id="culture-second-text" class="about-culture-text">让零售买卖更高效</div>
+                </div>
+                <div class="col-md-4" id="culture-third" style="width:25%;border-right: 1px solid #eeeeee;padding-top: 20px">
+                    <div id="culture-third-title" class="about-culture-title">趣撩服务理念</div>
+                    <div id="culture-third-img" class="about-culture-img"></div>
+                    <div id="culture-third-text" class="about-culture-text">让零售买卖更高效</div>
+                </div>
+                <div class="col-md-4" id="culture-fourth" style="width:25%;padding-top: 20px">
+                    <div id="culture-fourth-title" class="about-culture-title">趣撩服务理念</div>
+                    <div id="culture-fourth-img" class="about-culture-img"></div>
+                    <div id="culture-fourth-text" class="about-culture-text">趣撩价值观</div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="page-footer">
+    <div id="cooperation" style="margin-top: 22px;">
+        <div class="container container-about">
+            <div class="list-distract">
+                <div class="company-icon"></div>
+                <div class="company-list">合作品牌</div>
+            </div>
+            <div class="company-line"></div>
+            <div class="row" style="margin: 0px 70px 60px 70px">
+                <div class="col-md-4" style="width:20% ;text-align: center">
+                    <img src="img/about/about-wechat.png" class="img-responsive" style="display: inline;">
+                </div>
+                <div class="col-md-4" style="width:20% ;text-align: center">
+                    <img src="img/about/about-alipay.png" class="img-responsive" style="display: inline;">
+                </div>
+                <div class="col-md-4" style="width:20% ;text-align: center">
+                    <img src="img/about/about-CUP.png" class="img-responsive" style="display: inline;">
+                </div>
+                <div class="col-md-4" style="width:20% ;text-align: center; padding-top: 12px">
+                    <img src="img/about/about-CUMS.png" class="img-responsive" style="display: inline;">
+                </div>
+                <div class="col-md-4" style="width:20% ;text-align: center">
+                    <img src="img/about/about-CMB.png" class="img-responsive" style="display: inline;">
+                </div>
+            </div>
+            <div id="cooperation-text">
+                <div style="text-align:center; color: #7d7d7d ; font-size: 20px; line-height: 66px;font-family: MicrosoftYaHeiLight;margin-bottom: 60px;">——&nbsp;携手巨头&nbsp;&nbsp;·&nbsp;&nbsp;安全无忧&nbsp;——</div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-us" style="margin-top: 22px;padding-bottom: 0px">
+        <div class="container container-about">
+            <div class="list-distract">
+                <div class="company-icon"></div>
+                <div class="company-list">联系我们</div>
+            </div>
+            <div class="company-line" style="margin-bottom: 0px"></div>
+            <div class="row">
+                <div id="contact-us-first" class="col-md-4" style="width:33% ;text-align: center;border-right: 1px solid #eeeeee;">
+                    <img id="contact-us-first-img" src="img/about/about-normal-code.png" class="img-responsive" style="display: inline;margin-top:70px;">
+                    <div style="margin-top: 20px;margin-bottom: 50px;">
+                        <img src="img/about/about-code-black.png" style="text-align: center;margin-left: auto;margin-right: auto;">
+                        <span style="font-size: 15px;color: #7d7d7d;">扫二维码`·即刻关注</span>
+                    </div>
+                </div>
+                <div id="contact-us-second" class="col-md-4" style="width:33% ;text-align: center;border-right: 1px solid #eeeeee;">
+                    <img id="contact-us-second-img" src="img/about/about-normal-code.png" class="img-responsive" style="display: inline;margin-top:70px;">
+                    <div style="margin-top: 20px;margin-bottom: 50px;">
+                        <img src="img/about/about-code-black.png" style="text-align: center;margin-left: auto;margin-right: auto;">
+                        <span style="font-size: 15px;color: #7d7d7d;">扫二维码`·即刻关注</span>
+                    </div>
+                </div>
+                <div id="contact-us-third" class="col-md-4" style="width:33% ;text-align: center">
+                    <img id="contact-us-third-img" src="img/about/about-normal-code.png" class="img-responsive" style="display: inline;margin-top:70px;">
+                    <div style="margin-top: 20px;margin-bottom: 50px;">
+                        <img src="img/about/about-code-black.png" style="text-align: center;margin-left: auto;margin-right: auto;">
+                        <span style="font-size: 15px;color: #7d7d7d;">扫二维码`·即刻关注</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer" style="background-color: #ffffff; margin-top: 20px;">
         <div class="container">
-            <div id="footer-href-nav">
+            <div class="footer-href-nav">
                 <a href="#">趣撩供应平台（供应端）</a>
                 <div>|</div>
                 <a href="#">商户加盟</a>
@@ -191,7 +290,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div style="background-color: #ffffff;">
         <div class="container" id="zihong-contact-info">
             <ul class="nav navbar-right" style="text-align: right;padding-right: 10px;">
                 <li><span style="font-size: 38px; color: #797878;">400-8619-882</span></li>
@@ -199,7 +298,7 @@
             </ul>
         </div>
     </div>
-    <div id="footer-link">
+    <div id="footer-link" style="background-color: #ffffff;">
         <div class="container">
             <ul class="nav navbar-nav">
                 <li><a href="javascript:void(0)">聚合支付</a></li>
@@ -212,7 +311,7 @@
             </ul>
         </div>
     </div>
-    <div id="zihong-statement">
+    <div id="zihong-statement" style="background-color: #ffffff;">
         <div class="container">
             <a id="zihong-state" href="#">©2010-2016 资弘版权所有 互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com</a>
             <div class="navbar navbar-right">
@@ -229,5 +328,6 @@
     <script src="js/bootstrap/bootstrap.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/about.js" type="text/javascript" charset="UTF-8"></script>
     </body>
 </html>
