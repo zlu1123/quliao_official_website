@@ -4,6 +4,13 @@ $(function () {
         delay: 10,
         time: 2000
     });
+
+    $('#company').popover();
+    $('#merchant').popover();
+    $('#supply').popover();
+    $('#vpn').popover();
+    $('#advice').popover();
+
     //显示二维码
     $('#btn-index-contact').popover({
         placement: 'top'

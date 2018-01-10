@@ -2,17 +2,26 @@ body {
     background-color: #f4f3f4;
 }
 
-.page-img #first-supply-div {
-    height: 2593px;
+#first-supply-div {
+    height: 696px;
     background: url("../img/supply/supply-1.png") no-repeat center center;
     background-size: cover;
-    position: relative;
 }
 
-.page-img #second-supply-div {
-    margin-top: 10px;
-    height: 760px;
+#second-supply-div {
+    height: 428px;
     background: url("../img/supply/supply-2.png") no-repeat center center;
     background-size: cover;
-    position: relative;
+}
+
+#third-supply-div {
+    height: 428px;
+    background: url("../img/supply/supply-3.png") no-repeat center center;
+    background-size: cover;
+}
+
+#fourth-supply-div {
+    height: 428px;
+    background: url("../img/supply/supply-4.png") no-repeat center center;
+    background-size: cover;
 }
