@@ -1,90 +1,99 @@
-    var pay = $('#merchant-pay-first');
-    var bank = $('#merchant-bank-second');
-    var voice = $('#merchant-voice-third');
+$(function () {
+    $('.merchant-know-more').click(function () {
+        $('.theme-popover-mask').fadeIn(100);
+        $('.theme-popover-background').slideDown(200);
+    });
+});
 
-    pay.hover(
-        function () {
-            pay.css('padding', '85px 0px 0px 0px');
-            pay.html('');
-            pay.html(firstNewHtml);
 
-        },
-        function () {
-            pay.css('padding', '94px 15px 72px 15px');
-            pay.html('');
-            pay.html(firstOldHtml);
-        }
-    );
-    bank.hover(
-        function () {
-            bank.css('padding', '85px 0px 0px 0px');
-            bank.html('');
-            bank.html(secondNewHtml);
 
-        },
-        function () {
-            bank.css('padding', '94px 15px 72px 15px');
-            bank.html('');
-            bank.html(secondOldHtml);
-        }
-    );
-    voice.hover(
-        function () {
-            voice.css('padding', '85px 0px 0px 0px');
-            voice.html('');
-            voice.html(thirdNewHtml);
-        },
-        function () {
-            voice.css('padding', '94px 15px 72px 15px');
-            voice.html('');
-            voice.html(thirdOldHtml);
-        }
-    );
+var pay = $('#merchant-pay-first');
+var bank = $('#merchant-bank-second');
+var voice = $('#merchant-voice-third');
 
-    var accountFirst = $('#merchant-account-first');
-    accountFirst.hover(
-        function () {
-            accountFirst.css('padding-bottom', '97px');
-            accountFirst.html('');
-            accountFirst.html(fisrtAccountNewHtml);
+pay.hover(
+    function () {
+        pay.css('padding', '85px 0px 0px 0px');
+        pay.html('');
+        pay.html(firstNewHtml);
 
-        },
-        function () {
-            accountFirst.css('padding-bottom', '57px');
-            accountFirst.html('');
-            accountFirst.html(fisrtAccountOldHtml);
-        }
-    );
+    },
+    function () {
+        pay.css('padding', '94px 15px 72px 15px');
+        pay.html('');
+        pay.html(firstOldHtml);
+    }
+);
+bank.hover(
+    function () {
+        bank.css('padding', '85px 0px 0px 0px');
+        bank.html('');
+        bank.html(secondNewHtml);
 
-    var accountSecond = $('#merchant-account-second');
-    accountSecond.hover(
-        function () {
-            accountSecond.css('padding-bottom', '97px');
-            accountSecond.html('');
-            accountSecond.html(secondAccountNewHtml);
+    },
+    function () {
+        bank.css('padding', '94px 15px 72px 15px');
+        bank.html('');
+        bank.html(secondOldHtml);
+    }
+);
+voice.hover(
+    function () {
+        voice.css('padding', '85px 0px 0px 0px');
+        voice.html('');
+        voice.html(thirdNewHtml);
+    },
+    function () {
+        voice.css('padding', '94px 15px 72px 15px');
+        voice.html('');
+        voice.html(thirdOldHtml);
+    }
+);
 
-        },
-        function () {
-            accountSecond.css('padding-bottom', '57px');
-            accountSecond.html('');
-            accountSecond.html(secondAccountOldHtml);
-        }
-    );
+var accountFirst = $('#merchant-account-first');
+accountFirst.hover(
+    function () {
+        accountFirst.css('padding-bottom', '97px');
+        accountFirst.html('');
+        accountFirst.html(fisrtAccountNewHtml);
 
-    var accountThird = $('#merchant-account-third');
-    accountThird.hover(
-        function () {
-            accountThird.css('padding-bottom', '97px');
-            accountThird.html('');
-            accountThird.html(thirdAccountNewHtml);
+    },
+    function () {
+        accountFirst.css('padding-bottom', '57px');
+        accountFirst.html('');
+        accountFirst.html(fisrtAccountOldHtml);
+    }
+);
 
-        },
-        function () {
-            accountThird.css('padding-bottom', '57px');
-            accountThird.html('');
-            accountThird.html(thirdAccountOldHtml);
-        }
-    );
+var accountSecond = $('#merchant-account-second');
+accountSecond.hover(
+    function () {
+        accountSecond.css('padding-bottom', '97px');
+        accountSecond.html('');
+        accountSecond.html(secondAccountNewHtml);
+
+    },
+    function () {
+        accountSecond.css('padding-bottom', '57px');
+        accountSecond.html('');
+        accountSecond.html(secondAccountOldHtml);
+    }
+);
+
+var accountThird = $('#merchant-account-third');
+accountThird.hover(
+    function () {
+        accountThird.css('padding-bottom', '97px');
+        accountThird.html('');
+        accountThird.html(thirdAccountNewHtml);
+
+    },
+    function () {
+        accountThird.css('padding-bottom', '57px');
+        accountThird.html('');
+        accountThird.html(thirdAccountOldHtml);
+    }
+);
 
 var firstNewHtml = '<div style="padding-left: 100px;position: relative">\n' +
     '                    <div style="float: left;position: relative;top: 7px; ;width: 13px;height: 13px;background-image: linear-gradient(0deg, #d60a15 0%,#f37622 100%);border-radius: 13px"></div>\n' +

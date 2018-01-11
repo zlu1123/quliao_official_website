@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/merchant.css">
+    <link rel="stylesheet" type="text/css" href="css/zihongpop.css">
 </head>
 <body>
 <script type="text/javascript">
@@ -108,7 +109,7 @@
                     <img src="img/merchant/merchant-2-2.png" alt="">
                 </div>
                 <div style="display: inline;margin-left: 158px;">
-                    <button class="know-more" style="font-size: 16px;color: #d70b15;border:1px solid #d91015;background-color: transparent; border-radius: 15px; height: 37px;width: 110px;outline: none">
+                    <button class="merchant-know-more" style="font-size: 16px;color: #d70b15;border:1px solid #d91015;background-color: transparent; border-radius: 15px; height: 37px;width: 110px;outline: none">
                         了解详情
                     </button>
                 </div>
@@ -182,7 +183,7 @@
                     <div>享受微信鼓励金、支付宝奖励金、银联活动等官方补贴</div>
                 </div>
                 <div style="padding-top: 42px;text-align: right;margin-right: 60px">
-                    <button class="know-more" style="font-size: 16px;color: #d70b15;border:1px solid #d91015;background-color: transparent; border-radius: 15px; height: 37px;width: 110px;outline: none">
+                    <button class="merchant-know-more" style="font-size: 16px;color: #d70b15;border:1px solid #d91015;background-color: transparent; border-radius: 15px; height: 37px;width: 110px;outline: none">
                         了解详情
                     </button>
                 </div>
@@ -237,7 +238,7 @@
                         <div>48小时配送到位，货到扫码付款</div>
                     </div>
                     <div style="margin-top: 38px;text-align: right;padding-right: 98px">
-                        <button class="know-more" style="font-size: 16px;color: #d70b15;border:1px solid #d91015;background-color: transparent; border-radius: 15px; height: 37px;width: 110px;outline: none">
+                        <button class="merchant-know-more" style="font-size: 16px;color: #d70b15;border:1px solid #d91015;background-color: transparent; border-radius: 15px; height: 37px;width: 110px;outline: none">
                             了解详情
                         </button>
                     </div>
@@ -317,54 +318,217 @@
 
     </div>
 </div>
-<div class="page-footer" style="background-color: #ffffff; margin-top: 20px;">
-    <div class="container">
-        <div class="footer-href-nav">
-            <a href="#">趣撩供应平台（供应端）</a>
-            <div>|</div>
-            <a href="#">商户加盟</a>
-            <div>|</div>
-            <a href="#">供应商加盟</a>
-            <div>|</div>
-            <a href="#">代理商合作</a>
-            <div>|</div>
-            <a href="#">投诉建议</a>
+<div style="background-color: #ffffff;margin-top: 18px;">
+    <div class="container" style="padding-top: 70px">
+        <div class="row" style="font-family: MicrosoftYaHei;font-size: 17px;color: #797878;">
+            <div class="col-md-1" style="width: 5%"></div>
+            <div class="col-md-10" style="width:90%;text-align: center;padding-left: 0;padding-right: 0">
+                <div>
+                    <div class="display-inline" type="button" id="index-QR-code" data-toggle="tooltip"
+                         data-placement="bottom"
+                         title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                        趣撩供应平台（供应端）
+                    </div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline" id="merchant-QR-code" data-toggle="tooltip"
+                         data-placement="bottom"
+                         title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                        商户加盟
+                    </div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline" id="supply-QR-code" data-toggle="tooltip"
+                         data-placement="bottom"
+                         title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                        供应商加盟
+                    </div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline">代理商合作</div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline">投诉建议</div>
+                </div>
+                <div style="margin-top: 89px;text-align: right;">
+                    <div style="font-size: 38px;color: #797878;">
+                        <div>
+                            400-8619-882
+                        </div>
+                    </div>
+                    <div style="font-family: MicrosoftYaHei;font-size: 12px;color: #bab9b9; ">
+                        <div>
+                            周一至周六 9:00-18:00（仅收市话费）
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 16px">
+                    <div class="col-md-4" style="text-align: left;padding-left: 0;padding-right: 0;">
+                        <div style="font-size: 14px;font-family: MicrosoftYaHeiLight;color: #9b9b9b;">
+                            <div class="display-inline">聚合支付</div>
+                            <div class="display-inline">|</div>
+                            <div class="display-inline">会员营销</div>
+                            <div class="display-inline">|</div>
+                            <div class="display-inline">趣撩供应</div>
+                            <div class="display-inline">|</div>
+                            <div class="display-inline" onclick="toDownAppUrl()">趣撩掌柜APP</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div style="margin-top: 44px;">
+                    <div class="col-md-8" style="border: 1px solid #f4f3f4">
+                        <div></div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2" id="zihong-statement">
+                        <button id="btn-index-contact" class="btn" data-toggle="tooltip"
+                                data-placement="top"
+                                title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                            <img src="img/index/index-7.png">
+                            <span>在线客服</span>
+                        </button>
+                    </div>
+                </div>
+                <div style="text-align: left;font-family: MicrosoftYaHeiLight;font-size: 10px;color: #bab9b9;">
+                    ©2010-2016&nbsp;资弘版权&nbsp;所有互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com
+                </div>
+            </div>
+            <div class="col-md-1" style="width: 5%"></div>
         </div>
     </div>
 </div>
-<div style="background-color: #ffffff;">
-    <div class="container" id="zihong-contact-info">
-        <ul class="nav navbar-right" style="text-align: right;padding-right: 10px;">
-            <li><span style="font-size: 38px; color: #797878;">400-8619-882</span></li>
-            <li><span style="font-size: 12px; color: #bab9b9;">周一至周六 9:00-18:00（仅收市话费）</span></li>
-        </ul>
+<div class="theme-popover-background">
+    <div id="index-close-pop"
+         style='background: url("img/pop/pop-close.png") no-repeat center center; background-size:cover ;float: right;height: 58px;width: 58px;'>
     </div>
-</div>
-<div id="footer-link" style="background-color: #ffffff;">
-    <div class="container">
-        <ul class="nav navbar-nav">
-            <li><a href="javascript:void(0)">聚合支付</a></li>
-            <li><p>|</p></li>
-            <li><a href="javascript:void(0)">会员营销</a></li>
-            <li><p>|</p></li>
-            <li><a href="javascript:void(0)">趣撩供应</a></li>
-            <li><p>|</p></li>
-            <li><a href="javascript:void(0)">趣撩掌柜APP</a></li>
-        </ul>
-    </div>
-</div>
-<div id="zihong-statement" style="background-color: #ffffff;">
-    <div class="container">
-        <a id="zihong-state" href="#">©2010-2016 资弘版权所有 互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com</a>
-        <div class="navbar navbar-right">
-            <button style="background: transparent" id="btn-index-contact" class="btn" data-toggle="popover" data-container="body" data-placement="top"
-                    data-html="true" data-content='<img src="img/index/zihong-code.png" class="img-responsive">'>
-                <img src="img/index/index-7.png">
-                <span>在线客服</span>
-            </button>
+    <div class="theme-popover">
+        <div class="theme-poptit">
+            <h3 style="font-size: 20px;color: #929292;">商户合作申请</h3>
+            <p style="font-size: 14px;color: #bebfbe;">以下信息请您如实填写，工作人员将会尽快与您联系</p>
+        </div>
+        <div class="theme-popbod">
+            <form class="form-inline" style="font-size: 14px;color: #929292;">
+                <div style="padding-left: 60px">
+                    <div class="form-group">
+                        <span>联系人：</span>
+                        <input type="text" class="form-control" placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group" style="padding-left: 10px">
+                        <span>手机：</span>
+                        <input type="number" class="form-control" maxlength="13" placeholder="13312341234">
+                    </div>
+                    <div class="form-group" style="padding-left: 10px">
+                        <span>固话：</span>
+                        <input type="number" class="form-control" placeholder="选填">
+                    </div>
+                </div>
+                <div class="inline-distract">
+                    <span>店铺名称：</span>
+                    <input style="width: 643px" type="email" class="form-control" placeholder="">
+                </div>
+                <div class="inline-distract">
+                    <span>店铺类型：</span>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" value="option1">零售
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" value="option2">餐饮
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" value="option3">美容
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" value="option4">洗衣
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" value="option5"> 其他
+                    </label>
+                </div>
+                <div class="inline-distract">
+                    <div>
+                        <span>店铺区域：</span>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option1">社区
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option2">学校
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option3">医院
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option4">沿街店面
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option5">城中村
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option6">其他
+                        </label>
+                    </div>
+                </div>
+                <div class="inline-distract">
+                    <div style="float: left">
+                        <span>您是否了解聚合支付：</span>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option1">是
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option2">否
+                        </label>
+                    </div>
+                    <div style="text-align: right;padding-right: 64px">
+                        <span>您是否了解线上进货平台：</span>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option1">是
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" value="option2">否
+                        </label>
+                    </div>
+                </div>
+                <div class="inline-distract">
+                    <span>店铺地址：</span>
+                    <div class="form-group" style="padding-left: 15px">
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="陕西">
+                        <span for="exampleInputName2">省</span>
+                    </div>
+                    <div class="form-group" style="padding-left: 15px">
+                        <input type="email" class="form-control" placeholder="西安">
+                        <span for="exampleInputEmail2">市</span>
+                    </div>
+                    <div class="form-group" style="padding-left: 15px">
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="雁塔">
+                        <span for="exampleInputEmail2">区</span>
+                    </div>
+                </div>
+                <div class="inline-distract">
+                    <div class="form-group" style="padding-left: 60px">
+                        <input type="text" class="form-control"  placeholder="玉林">
+                        <span for="exampleInputName2">路</span>
+                    </div>
+                    <div class="form-group" style="padding-left: 15px">
+                        <input type="email" class="form-control" placeholder="28">
+                        <span for="exampleInputEmail2">号</span>
+                    </div>
+                </div>
+                <div class="inline-distract">
+                    <span>您还有什么问题需要咨询吗？</span>
+                    <div style="padding-top: 20px">
+                            <textarea style="width: 720px;height: 61px;border-radius: 5px;border: solid 1px #c7c7c7;"
+                                      name="" id="" cols="50" rows="3" placeholder="选填..."></textarea>
+                    </div>
+                </div>
+                <div style="margin-top: 32px;text-align: center">
+                    <button id="btn-index-close"
+                            style="width: 193px;height: 51px;background-image: linear-gradient(6deg, #57a6e3 0%, #b6efa2 100%);border-radius: 8px;font-size: 20px;color: #ffffff;">
+                        提交
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
+<div class="theme-popover-mask"></div>
 <script src="js/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery/jquery.countup.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>

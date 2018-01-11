@@ -54,4 +54,12 @@ $(function () {
             $('.supply-sixth-class').css('color', '#7d7d7d');
         }
     );
+
+
+
+    $('.supply-know-more').click(function () {
+        $('.theme-popover-mask').fadeIn(100);
+        $('.theme-popover-background').slideDown(200);
+    });
+
 })

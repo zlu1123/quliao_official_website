@@ -1,7 +1,20 @@
 $(function () {
     //显示二维码
     $("#btn-index-contact").tooltip({
-        html : true
+        html : true,
+        placement: 'top'
+    });
+    $("#index-QR-code").tooltip({
+        html : true,
+        placement: 'bottom'
+    });
+    $("#merchant-QR-code").tooltip({
+        html : true,
+        placement: 'bottom'
+    });
+    $("#supply-QR-code").tooltip({
+        html : true,
+        placement: 'bottom'
     });
 
     //计数器初始化
@@ -9,9 +22,6 @@ $(function () {
         delay: 10,
         time: 2000
     });
-
-
-
 
     //图一动画
     $("#first-index-div").hover(
@@ -155,6 +165,10 @@ $('#btn-index-close').click(function () {
     $('.theme-popover-mask').fadeOut(100);
     $('.theme-popover-background').slideUp(200);
 });
+
+function toDownAppUrl() {
+    $(location).attr('href', 'https://www.zihongkeji.com/app/app_download/app_download.html');
+}
 
 
 

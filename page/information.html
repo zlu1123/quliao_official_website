@@ -321,56 +321,81 @@
     </div>
 </div>
 
-<div class="page-footer" style="background-color: #ffffff; margin-top: 20px;">
-    <div class="container">
-        <div class="footer-href-nav">
-            <a id="company" href="javascript:void(0)" data-toggle="popover" data-container="body" data-placement="bottom"
-               data-html="true" data-content='123123'>趣撩供应平台（供应端）</a>
-            <div>|</div>
-            <a id="merchant" href="javascript:void(0)" data-toggle="popover" data-container="body" data-placement="bottom"
-               data-html="true" data-content='<img src="img/index/zihong-code.png" class="img-responsive">'>商户加盟</a>
-            <div>|</div>
-            <a id="supply" href="javascript:void(0)" data-toggle="popover" data-container="body" data-placement="bottom"
-               data-html="true" data-content='<img src="img/index/zihong-code.png" class="img-responsive">'>供应商加盟</a>
-            <div>|</div>
-            <a id="vpn" href="javascript:void(0)" data-toggle="popover" data-container="body" data-placement="bottom"
-               data-html="true" data-content='<img src="img/index/zihong-code.png" class="img-responsive">'>代理商合作</a>
-            <div>|</div>
-            <a id="advice" href="javascript:void(0)" data-toggle="popover" data-container="body" data-placement="bottom"
-               data-html="true" data-content='<img src="img/index/zihong-code.png" class="img-responsive">'>投诉建议</a>
-        </div>
-    </div>
-</div>
-<div style="background-color: #ffffff;">
-    <div class="container" id="zihong-contact-info">
-        <ul class="nav navbar-right" style="text-align: right;padding-right: 10px;">
-            <li><span style="font-size: 38px; color: #797878;">400-8619-882</span></li>
-            <li><span style="font-size: 12px; color: #bab9b9;">周一至周六 9:00-18:00（仅收市话费）</span></li>
-        </ul>
-    </div>
-</div>
-<div id="footer-link" style="background-color: #ffffff;">
-    <div class="container">
-        <ul class="nav navbar-nav">
-            <li><a href="javascript:void(0)">聚合支付</a></li>
-            <li><p>|</p></li>
-            <li><a href="javascript:void(0)">会员营销</a></li>
-            <li><p>|</p></li>
-            <li><a href="javascript:void(0)">趣撩供应</a></li>
-            <li><p>|</p></li>
-            <li><a href="javascript:void(0)">趣撩掌柜APP</a></li>
-        </ul>
-    </div>
-</div>
-<div id="zihong-statement" style="background-color: #ffffff;">
-    <div class="container">
-        <a id="zihong-state" href="#">©2010-2016 资弘版权所有 互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com</a>
-        <div class="navbar navbar-right">
-            <button id="btn-index-contact" class="btn" data-toggle="popover" data-container="body" data-placement="top"
-                    data-html="true" data-content='<img src="img/index/zihong-code.png" class="img-responsive">'>
-                <img src="img/index/index-7.png">
-                <span>在线客服</span>
-            </button>
+<div style="background-color: #ffffff;margin-top: 18px;">
+    <div class="container" style="padding-top: 70px">
+        <div class="row" style="font-family: MicrosoftYaHei;font-size: 17px;color: #797878;">
+            <div class="col-md-1" style="width: 5%"></div>
+            <div class="col-md-10" style="width:90%;text-align: center;padding-left: 0;padding-right: 0">
+                <div>
+                    <div class="display-inline" type="button" id="index-QR-code" data-toggle="tooltip"
+                         data-placement="bottom"
+                         title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                        趣撩供应平台（供应端）
+                    </div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline" id="merchant-QR-code" data-toggle="tooltip"
+                         data-placement="bottom"
+                         title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                        商户加盟
+                    </div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline" id="supply-QR-code" data-toggle="tooltip"
+                         data-placement="bottom"
+                         title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                        供应商加盟
+                    </div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline">代理商合作</div>
+                    <div class="display-inline inline-distance">|</div>
+                    <div class="display-inline">投诉建议</div>
+                </div>
+                <div style="margin-top: 89px;text-align: right;">
+                    <div style="font-size: 38px;color: #797878;">
+                        <div>
+                            400-8619-882
+                        </div>
+                    </div>
+                    <div style="font-family: MicrosoftYaHei;font-size: 12px;color: #bab9b9; ">
+                        <div>
+                            周一至周六 9:00-18:00（仅收市话费）
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 16px">
+                    <div class="col-md-4" style="text-align: left;padding-left: 0;padding-right: 0;">
+                        <div style="font-size: 14px;font-family: MicrosoftYaHeiLight;color: #9b9b9b;">
+                            <div class="display-inline">聚合支付</div>
+                            <div class="display-inline">|</div>
+                            <div class="display-inline">会员营销</div>
+                            <div class="display-inline">|</div>
+                            <div class="display-inline">趣撩供应</div>
+                            <div class="display-inline">|</div>
+                            <div class="display-inline" onclick="toDownAppUrl()">趣撩掌柜APP</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div style="margin-top: 44px;">
+                    <div class="col-md-8" style="border: 1px solid #f4f3f4">
+                        <div></div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2" id="zihong-statement">
+                        <button id="btn-index-contact" class="btn" data-toggle="tooltip"
+                                data-placement="top"
+                                title='<img src="img/index/zihong-code.png" class="img-responsive">'>
+                            <img src="img/index/index-7.png">
+                            <span>在线客服</span>
+                        </button>
+                    </div>
+                </div>
+                <div style="text-align: left;font-family: MicrosoftYaHeiLight;font-size: 10px;color: #bab9b9;">
+                    ©2010-2016&nbsp;资弘版权&nbsp;所有互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com
+                </div>
+            </div>
+            <div class="col-md-1" style="width: 5%"></div>
         </div>
     </div>
 </div>

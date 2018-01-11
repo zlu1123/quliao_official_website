@@ -1,4 +1,6 @@
 body {
+    top: 0;
+    left: 0;
     font-family: MicrosoftYaHei;
     user-select:none;
     background-color: #f4f3f4;
@@ -136,5 +138,8 @@ body {
     background: url("../img/index/index-6.png") no-repeat center center;
     background-size: cover;
     position: relative;
+}
+.tooltip-inner {
+    background: #ffffff;
 }
 
