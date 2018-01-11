@@ -25,9 +25,15 @@ body {
     overflow: hidden;
 }
 .page-nav .container  a{
-    color: #7d7d7d;
+    color: #929292;
     font-size: 16px;
 }
+
+.page-nav .container li:hover, li:visited, li:link, li:active {
+    text-decoration: none;
+    color:transparent;
+}
+
 .page-nav .container a div {
     padding-bottom:10px;
     border-bottom: 2px solid transparent;
@@ -43,11 +49,11 @@ body {
     margin:70px 0;
     padding: 0 10px;
     font-size: 17px;
-    color: #797878
+    color: #585858
 }
 .page-footer .container a{
     text-decoration:none;
-    color: #797878
+    color: #585858
 }
 
 .page-footer .container .footer-href-nav div{
@@ -92,38 +98,20 @@ body {
     letter-spacing: 0px;
 }
 
-/*图片浮动效果 start*/
-/*#first-index:hover {*/
-    /*-webkit-animation-name:bounce;*/
-    /*animation-name:bounce;*/
-/*}*/
-/*#second-index:hover {*/
-    /*-webkit-animation-name:swing;*/
-    /*animation-name:swing;*/
-/*}*/
-/*#third-index:hover {*/
-    /*-webkit-animation-name:pulse;*/
-    /*animation-name:pulse;*/
-/*}*/
-/*#fourth-index:hover {*/
-    /*-webkit-animation-name:rubberBand;*/
-    /*animation-name:rubberBand;*/
-/*}#six-index:hover {*/
-     /*-webkit-animation-name:tada;*/
-     /*animation-name:tada;*/
- /*}*/
- /*#seventh-index:hover {*/
-     /*-webkit-animation-name: wobble;*/
-     /*animation-name: wobble;*/
- /*}*/
- /*图片浮动效果end*/
-
 .display-inline {
     display:inline
 }
 
+.inline-distance {
+    margin: 0 62px;
+}
+
+.inline-distance-left {
+    margin: 0 10px;
+}
+
 #first-index-div {
-    height: 680px;
+    height: 686px;
     background: url("../img/index/index-1.png") no-repeat center center;
     background-size: cover;
     position: relative;

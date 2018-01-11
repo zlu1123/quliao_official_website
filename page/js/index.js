@@ -1,20 +1,17 @@
 $(function () {
+    //显示二维码
+    $("#btn-index-contact").tooltip({
+        html : true
+    });
+
     //计数器初始化
     $('.counter').countUp({
         delay: 10,
         time: 2000
     });
 
-    $('#company').popover();
-    $('#merchant').popover();
-    $('#supply').popover();
-    $('#vpn').popover();
-    $('#advice').popover();
 
-    //显示二维码
-    $('#btn-index-contact').popover({
-        placement: 'top'
-    });
+
 
     //图一动画
     $("#first-index-div").hover(
@@ -32,39 +29,54 @@ $(function () {
 //图二动画
     $("#second-index-div").hover(
         function () {
-            $("#second-index-img-first").addClass('rollIn');
-            $("#second-index-img-second").addClass('rollIn');
-            $("#second-index-text").addClass('animated bounceIn');
-            // $("#first-index-text").addClass('animated bounceIn');
-
+            $("#second-index-img").addClass('animated slideInUp');
         },
         function () {
-            $("#second-index-img-first").removeClass('rollIn');
-            $("#second-index-img-second").removeClass('rollIn');
-            $("#second-index-text").removeClass('animated bounceIn');
-            // $("#first-index-text").removeClass('animated bounceIn');
+            $("#second-index-img").removeClass('animated slideInUp');
         }
     );
 
-    // 图三字体颜色
-    $("#third-index-div").hover(
+    //图三字体颜
+
+    $("#third-col-first").hover(
         function () {
+            $(".third-img-first").addClass('animated pulse');
             $("#third-div-first").css('border','solid 2px #fb7519');
             $("#third-span-first").css('color','#fb7519');
+        },
+        function () {
+            $(".third-img-first").removeClass('animated pulse');
+            $("#third-div-first").css('border','solid 2px #7d7d7d');
+            $("#third-span-first").css('color','#7d7d7d');
+        }
+    );
+
+    $("#third-col-second").hover(
+        function () {
+            $(".third-img-second").addClass('animated pulse');
             $("#third-div-second").css('border','solid 2px #fb7519');
             $("#third-span-second").css('color','#fb7519');
+        },
+        function () {
+            $(".third-img-second").removeClass('animated pulse');
+            $("#third-div-second").css('border','solid 2px #7d7d7d');
+            $("#third-span-second").css('color','#7d7d7d');
+        }
+    );
+    $("#third-col-third").hover(
+        function () {
+            $(".third-img-third").addClass('animated pulse');
             $("#third-div-third").css('border','solid 2px #fb7519');
             $("#third-span-third").css('color','#fb7519');
         },
         function () {
-            $("#third-div-first").css('border','solid 2px #7d7d7d');
-            $("#third-span-first").css('color','#7d7d7d');
-            $("#third-div-second").css('border','solid 2px #7d7d7d');
-            $("#third-span-second").css('color','#7d7d7d');
+            $(".third-img-third").removeClass('animated pulse');
             $("#third-div-third").css('border','solid 2px #7d7d7d');
             $("#third-span-third").css('color','#7d7d7d');
         }
     );
+
+
 
     // 图五动画
     $("#fifth-div-first").hover(

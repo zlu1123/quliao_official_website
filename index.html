@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=8">
     <title>官方在线商城-Smartisan</title>
+    <link rel="icon" href="page/img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="page/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="page/css/bootstrap/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="page/css/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="page/css/index.css">
     <link rel="stylesheet" type="text/css" href="page/css/zihongpop.css">
+    <script src="page/js/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="page/js/jquery/jquery.countup.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="page/js/jquery/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="page/js/bootstrap/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <script type="text/javascript">
@@ -17,7 +22,6 @@
     }
 </script>
 <div class="page-nav-top">
-    <!--<div class="nav" style="overflow: hidden;">-->
     <div class="container">
         <div class="navbar-text">
             <span style="color: #ffffff;">趣撩欢迎您</span>
@@ -82,61 +86,68 @@
 </div>
 <div class="page-img">
     <div id="first-index-div">
-        <div style="position: relative;text-align: center;padding: 36px 318px;">
-            <img id="first-index-img" src="page/img/index/index-money.png" class="img-responsive center-block animated"
-                 style="width: 70%; height: 70%">
+        <div style="padding-top:85px;text-lign: center">
+            <img id="first-index-img" src="page/img/index/index-money.png" class=" center-block animated">
         </div>
-        <div id="first-index-text" style="text-align: center; position: relative; ">
-            <div style="color: #fd8a03 ;font-size: 33px">趣撩小店</div>
-            <div style="color: #a99986; font-size: 20px">免费的零售供应商一站式服务平台</div>
+        <div id="first-index-text" style="margin-top:20px;text-align: center; ">
+            <div style="color: #fd8a03 ;font-size: 25px">
+                <div>趣撩小店</div>
+            </div>
+            <div style="margin-top: 18px">
+                <div style="color: #a99986; font-size: 19px">
+                    免费的零售供应商一站式服务平台
+                </div>
+            </div>
         </div>
     </div>
     <div id="second-index-div" style="margin-top: 20px">
-        <div style="text-align: center">
-            <div style="padding-right: 450px">
-                <div id="second-index-text" style="text-align: right;padding-top: 152px">
-                    <div style="color: #313131 ;font-size: 33px"> 中国专业零售供应链产品开发平台</div>
-                </div>
-                <div style="padding-left: 500px">
-                    <img id="second-index-img-first" src="page/img/index/index-2-shop.png"
-                         class="img-responsive animated" style="float: left">
-                    <div style="margin-top: 10px;background-color: #01bcf8; float: right; width: 50px;height: 5px;">
-                    </div>
-                    <div style="margin-top: 10px;background-color: #ffd800; float: right; width: 50px;height: 5px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="second-index-img" style="margin-top:184px;height: 496px;width: 679px">
+                        <img class="" src="page/img/index/index-2-phone.png" alt="">
                     </div>
                 </div>
-                <div style="margin-top: 50px; float: left;padding-top: 280px">
-                    <img id="second-index-img-second" src="page/img/index/index-2-loction.png"
-                         class="img-responsive animated">
-                </div>
-                <div style="font-size: 20px; color: #7d7d7d;margin-top: 53px;text-align: right">
-                    由资深零售人指导，多名IT技术人员开发
-                </div>
-                <div style="font-size: 20px; color: #7d7d7d;text-align: right">
-                    解决供应商技术开发及维护难题
-                </div>
-                <div style="font-size: 20px; color: #7d7d7d; ;text-align: right">
-                    致力于用专业性帮助供应商伙伴开启全新供应时代
-                </div>
-                <div id="second-index-div-img" style="margin-top: 45px; float: right">
-                    <div class="row">
-                        <div class="col-md-4" style="width: 25%;margin-right: 0px;">
-                            <img src="page/img/index/index-2-1.png" class="img-responsive" alt="">
-                        </div>
-                        <div class="col-md-4" style="width: 25%;margin-right: 0px;">
-                            <img src="page/img/index/index-2-2.png" class="img-responsive" alt="">
-                        </div>
-                        <div class="col-md-4" style="width: 25%;margin-right: 0px;">
-                            <img src="page/img/index/index-2-3.png" class="img-responsive" alt="">
-                        </div>
-                        <div class="col-md-4" style="width: 25%; margin-right: 0px;">
-                            <img src="page/img/index/index-2-4.png" class="img-responsive" alt="">
+                <div class="col-md-6">
+                    <div style="margin-top: 152px; text-align: right">
+                        <div style="font-family: MicrosoftYaHei;font-size: 25px;color: #313131;">
+                            中国专业零售供应链产品开发平台
                         </div>
                     </div>
-                    <div style="margin-top: 50px;margin-bottom: 50px">
+                    <div style="margin-top: 19px">
+                        <div style="float: right;">
+                            <div style="background-color: #ffd800; width: 50px;height: 5px;">
+                            </div>
+                        </div>
+                        <div style="float: right;">
+                            <div style="background-color: #01bcf8; width: 50px;height: 5px;"></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 77px; text-align: right">
+                        <div style="font-family: MicrosoftYaHei;font-size: 19px;color: #7d7d7d;">
+                            <div>由资深零售人指导，多名IT技术人员开发</div>
+                            <div>解决供应商技术开发及维护难题</div>
+                            <div>致力于用专业性帮助供应商伙伴开启全新供应时代</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 45px;text-align: right">
+                        <div class="col-md-3" style="padding-right: 0px">
+                                <img src="page/img/index/index-2-1.png" alt="">
+                        </div>
+                        <div class="col-md-3" style="padding-right: 0px">
+                                <img src="page/img/index/index-2-2.png" alt="">
+                        </div>
+                        <div class="col-md-3" style="padding-right: 0px">
+                                <img src="page/img/index/index-2-3.png" alt="">
+                        </div>
+                        <div class="col-md-3" style="padding-right: 0px">
+                                <img src="page/img/index/index-2-4.png" alt="">
+                        </div>
+                    </div>
+                    <div style="margin-top: 170px;text-align: right">
                         <button class="know-more"
-                                style="color: #7d7d7d;font-size: 20px;border: solid 1px #313131;background-color: transparent; border-radius: 18px; height: 37px;width: 136px;outline: none">
-                            了解更多
+                                style="font-size: 20px;color: #7d7d7d;border: solid 1px #313131;background-color: transparent; border-radius: 18px; height: 37px;width: 136px;outline: none">
+                            了解详情
                         </button>
                     </div>
                 </div>
@@ -145,7 +156,7 @@
     </div>
     <div id="third-index-div" style="margin-top: 20px;height: 680px;background-color: #ffffff;">
         <div class="container">
-            <div style="font-size: 33px;color: #313131;text-align: center;padding-top: 120px">
+            <div style="font-size: 25px;color: #313131;text-align: center;padding-top: 120px">
                 <div>免费的供应商自有线上供应体系</div>
             </div>
             <div style="margin-top: 19px;position:relative;">
@@ -158,25 +169,25 @@
                     </div>
                 </div>
             </div>
-            <div style="margin-top: 63px;text-align: center;font-size: 20px;color: #7d7d7d;">
+            <div style="margin-top: 63px;text-align: center;font-size: 19px;color: #7d7d7d;">
                 <div>为供应商打造定制专属线上批发商城</div>
                 <div>0成本提升销售额，为供应商带来绝对财富</div>
             </div>
             <div class="row" style="text-align: center;margin-top: 65px">
-                <div class="col-md-4">
-                    <div>
+                <div class="col-md-4" id="third-col-first">
+                    <div class="third-img-first">
                         <img src="page/img/index/index-3-1.png" class="img-responsive"
                              style="display: inline;height: 139px">
                     </div>
                     <div style="margin-top:49px;">
                         <div id="third-div-first"
-                             style="width: 171px;border-radius: 20px;border: solid 2px #7d7d7d;margin-left: auto;margin-right: auto">
+                             style="width: 171px;border-radius: 19px;border: solid 2px #7d7d7d;margin-left: auto;margin-right: auto">
                             <span id="third-span-first" style="font-size: 23px;color: #7d7d7d;">自由上架货品</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div>
+                <div class="col-md-4" id="third-col-second">
+                    <div class="third-img-second">
                         <img src="page/img/index/index-3-2.png" class="img-responsive"
                              style="display: inline;height: 139px">
                     </div>
@@ -187,8 +198,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div>
+                <div class="col-md-4" id="third-col-third">
+                    <div class="third-img-third">
                         <img src="page/img/index/index-3-3.png" class="img-responsive" alt=""
                              style="display: inline;height: 139px">
                     </div>
@@ -205,7 +216,7 @@
     <div id="fourth-index-div" style="margin-top: 20px;">
         <div class="container">
             <div style="padding-top: 155px;text-align: left;">
-                <div style="font-size: 33px;color: #313131;">多维度轻量级移动营销工具</div>
+                <div style="font-size: 25px;color: #313131;">多维度轻量级移动营销工具</div>
             </div>
             <div style="margin-top: 19px">
                 <div style="float: left;">
@@ -216,7 +227,7 @@
                     <div style="background-color: #01bcf8; width: 50px;height: 5px;"></div>
                 </div>
             </div>
-            <div style="margin-top: 63px;font-size: 20px;color: #7d7d7d;">
+            <div style="margin-top: 63px;font-size: 19px;color: #7d7d7d;">
                 <div>不仅为供应商打造公众号+小程序快捷轻量线上商城</div>
                 <div>更免费提供专属二维码名片等多种产品</div>
                 <div>组合出击轻松实现便利店主留存</div>
@@ -231,7 +242,7 @@
     </div>
     <div id="fifth-index-div" style="margin-top: 20px;height: 680px;background-color: #ffffff;">
         <div class="container">
-            <div style="font-size: 33px;color: #313131;text-align: center;padding-top: 120px">
+            <div style="font-size: 25px;color: #313131;text-align: center;padding-top: 120px">
                 <div> 轻量级供应商信息化解决方案</div>
             </div>
             <div style="margin-top: 19px;position:relative;">
@@ -251,7 +262,7 @@
                              style="display: inline;height: 69px">
                     </div>
                     <div id="fifth-span-first"
-                         style="margin-top:44px;text-align: center;font-size: 20px;color: #7d7d7d;">
+                         style="margin-top:44px;text-align: center;font-size: 19px;color: #7d7d7d;">
                         <div>标准化</div>
                         <div>商品信息管理</div>
                     </div>
@@ -262,7 +273,7 @@
                              style="display: inline;height: 69px">
                     </div>
                     <div id="fifth-span-second"
-                         style="margin-top:44px;text-align: center;font-size: 20px;color: #7d7d7d;">
+                         style="margin-top:44px;text-align: center;font-size: 19px;color: #7d7d7d;">
                         <div>规范化</div>
                         <div>作业流程</div>
                     </div>
@@ -273,7 +284,7 @@
                              style="display: inline;height: 69px">
                     </div>
                     <div id="fifth-span-third"
-                         style="margin-top:44px;text-align: center;font-size: 20px;color: #7d7d7d;">
+                         style="margin-top:44px;text-align: center;font-size: 19px;color: #7d7d7d;">
                         <div>轻松管理</div>
                         <div>库房货品</div>
                     </div>
@@ -284,7 +295,7 @@
                              style="display: inline;height: 69px">
                     </div>
                     <div id="fifth-span-fourth"
-                         style="margin-top:44px;text-align: center;font-size: 20px;color: #7d7d7d;">
+                         style="margin-top:44px;text-align: center;font-size: 19px;color: #7d7d7d;">
                         <div>获取业务员</div>
                         <div>销售业绩</div>
                     </div>
@@ -295,7 +306,7 @@
                              style="display: inline;height: 69px">
                     </div>
                     <div id="fifth-span-fifth"
-                         style="margin-top:44px;text-align: center;font-size: 20px;color: #7d7d7d;">
+                         style="margin-top:44px;text-align: center;font-size: 19px;color: #7d7d7d;">
                         <div>减少供应商</div>
                         <div>运营成本</div>
                     </div>
@@ -307,7 +318,7 @@
         <div class="container">
             <div style="margin-top: 188px">
                 <div style="text-align: right">
-                    <div style="font-size: 33px;color: #313131;">
+                    <div style="font-size: 25px;color: #313131;">
                         便捷安全的线上交易收单工具
                     </div>
                 </div>
@@ -321,7 +332,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="margin-top:46px;font-size: 20px;color: #7d7d7d;text-align: right">
+                <div style="margin-top:46px;font-size: 19px;color: #7d7d7d;text-align: right">
                     <div>趣撩收款码支持多种支付通道</div>
                     <div>收款直接由银行清分至银行卡</div>
                     <div>保障货到付款交易效率及安全性</div>
@@ -338,55 +349,123 @@
             </div>
         </div>
     </div>
-    <div class="page-footer" style="background-color: #ffffff; margin-top: 20px;">
-        <div class="container">
-            <div class="footer-href-nav">
-                <a href="#">趣撩供应平台（供应端）</a>
-                <div>|</div>
-                <a href="#">商户加盟</a>
-                <div>|</div>
-                <a href="#">供应商加盟</a>
-                <div>|</div>
-                <a href="#">代理商合作</a>
-                <div>|</div>
-                <a href="#">投诉建议</a>
+    <div style="background-color: #ffffff;margin-top: 18px;">
+        <div class="container" style="padding-top: 70px">
+            <div class="row" style="font-family: MicrosoftYaHei;font-size: 17px;color: #797878;">
+                <div class="col-md-1" style="width: 5%"></div>
+                <div class="col-md-10" style="width:90%;text-align: center;padding-left: 0;padding-right: 0">
+                    <div>
+                        <div class="display-inline">趣撩供应平台（供应端）</div>
+                        <div class="display-inline inline-distance">|</div>
+                        <div class="display-inline">商户加盟</div>
+                        <div class="display-inline inline-distance">|</div>
+                        <div class="display-inline">供应商加盟</div>
+                        <div class="display-inline inline-distance">|</div>
+                        <div class="display-inline">代理商合作</div>
+                        <div class="display-inline inline-distance">|</div>
+                        <div class="display-inline">投诉建议</div>
+                    </div>
+                    <div style="margin-top: 89px;text-align: right;">
+                        <div style="font-size: 38px;color: #797878;">
+                            <div>
+                                400-8619-882
+                            </div>
+                        </div>
+                        <div style="font-family: MicrosoftYaHei;font-size: 12px;color: #bab9b9; ">
+                            <div>
+                                周一至周六 9:00-18:00（仅收市话费）
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 16px">
+                        <div class="col-md-4" style="text-align: left;padding-left: 0;padding-right: 0;">
+                            <div style="font-size: 14px;font-family: MicrosoftYaHeiLight;color: #9b9b9b;">
+                                <div class="display-inline">聚合支付</div>
+                                <div class="display-inline">|</div>
+                                <div class="display-inline">会员营销</div>
+                                <div class="display-inline">|</div>
+                                <div class="display-inline">趣撩供应</div>
+                                <div class="display-inline">|</div>
+                                <div class="display-inline">趣撩掌柜APP</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                    <div style="margin-top: 44px;">
+                        <div class="col-md-8" style="border: 1px solid #f4f3f4">
+                            <div></div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2" id="zihong-statement">
+                            <button id="btn-index-contact" class="btn" data-toggle="tooltip"
+                                    data-placement="top" title='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
+                                <img src="page/img/index/index-7.png">
+                                <span>在线客服</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div style="text-align: left;font-family: MicrosoftYaHeiLight;font-size: 10px;color: #bab9b9;">
+                        ©2010-2016&nbsp;资弘版权&nbsp;所有互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com
+                    </div>
+                </div>
+                <div class="col-md-1" style="width: 5%"></div>
             </div>
         </div>
     </div>
-    <div style="background-color: #ffffff;">
-        <div class="container" id="zihong-contact-info">
-            <ul class="nav navbar-right" style="text-align: right;padding-right: 10px;">
-                <li><span style="font-size: 38px; color: #797878;">400-8619-882</span></li>
-                <li><span style="font-size: 12px; color: #bab9b9;">周一至周六 9:00-18:00（仅收市话费）</span></li>
-            </ul>
-        </div>
-    </div>
-    <div id="footer-link" style="background-color: #ffffff;">
-        <div class="container">
-            <ul class="nav navbar-nav">
-                <li><a href="javascript:void(0)">聚合支付</a></li>
-                <li><p>|</p></li>
-                <li><a href="javascript:void(0)">会员营销</a></li>
-                <li><p>|</p></li>
-                <li><a href="javascript:void(0)">趣撩供应</a></li>
-                <li><p>|</p></li>
-                <li><a href="javascript:void(0)">趣撩掌柜APP</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="zihong-statement" style="background-color: #ffffff;">
-        <div class="container">
-            <a id="zihong-state" href="#">©2010-2016 资弘版权所有 互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com</a>
-            <div class="navbar navbar-right">
-                <button id="btn-index-contact" class="btn" data-toggle="popover" data-container="body"
-                        data-placement="top"
-                        data-html="true" data-content='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
-                    <img src="page/img/index/index-7.png">
-                    <span>在线客服</span>
-                </button>
-            </div>
-        </div>
-    </div>
+
+
+
+    <!--<div class="page-footer" style="background-color: #ffffff; margin-top: 20px;">-->
+        <!--<div class="container">-->
+            <!--<div class="footer-href-nav">-->
+                <!--<a href="#">趣撩供应平台（供应端）</a>-->
+                <!--<div>|</div>-->
+                <!--<a href="#">商户加盟</a>-->
+                <!--<div>|</div>-->
+                <!--<a href="#">供应商加盟</a>-->
+                <!--<div>|</div>-->
+                <!--<a href="#">代理商合作</a>-->
+                <!--<div>|</div>-->
+                <!--<a href="#">投诉建议</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div style="background-color: #ffffff;">-->
+        <!--<div class="container" id="zihong-contact-info">-->
+            <!--<ul class="nav navbar-right" style="text-align: right;padding-right: 10px;">-->
+                <!--<li><span style="font-size: 38px; color: #797878;">400-8619-882</span></li>-->
+                <!--<li><span style="font-size: 12px; color: #bab9b9;">周一至周六 9:00-18:00（仅收市话费）</span></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div id="footer-link" style="background-color: #ffffff;">-->
+        <!--<div class="container">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li><a href="javascript:void(0)">聚合支付</a></li>-->
+                <!--<li><p>|</p></li>-->
+                <!--<li><a href="javascript:void(0)">会员营销</a></li>-->
+                <!--<li><p>|</p></li>-->
+                <!--<li><a href="javascript:void(0)">趣撩供应</a></li>-->
+                <!--<li><p>|</p></li>-->
+                <!--<li><a href="javascript:void(0)">趣撩掌柜APP</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div id="zihong-statement" style="background-color: #ffffff;">-->
+        <!--<div class="container">-->
+            <!--<a id="zihong-state" href="#">©2010-2016 资弘版权所有 互联网违法和不良信息举报中心:0571-81683755 blxx@list.alibaba-inc.com</a>-->
+            <!--<div class="navbar navbar-right">-->
+                <!--<button id="btn-index-contact" class="btn" data-toggle="popover" data-container="body"-->
+                        <!--data-placement="top"-->
+                        <!--data-html="true" data-content='<img src="page/img/index/zihong-code.png" class="img-responsive">'>-->
+                    <!--<img src="page/img/index/index-7.png">-->
+                    <!--<span>在线客服</span>-->
+                <!--</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
     <div class="theme-popover-background">
         <div id="index-close-pop"
              style='background: url("page/img/pop/pop-close.png") no-repeat center center; background-size:cover ;float: right;height: 58px;width: 58px;'>
@@ -493,10 +572,7 @@
         </div>
     </div>
     <div class="theme-popover-mask"></div>
-    <script src="page/js/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="page/js/jquery/jquery.countup.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="page/js/jquery/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="page/js/bootstrap/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+
     <script src="page/js/wow.js" type="text/javascript" charset="utf-8"></script>
     <script src="page/js/index.js" type="text/javascript" charset="utf-8"></script>
 </body>

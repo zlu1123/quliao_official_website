@@ -86,9 +86,9 @@
         }
     );
 
-var firstNewHtml = '<div style="margin-left: 110px;position: relative">\n' +
+var firstNewHtml = '<div style="padding-left: 100px;position: relative">\n' +
     '                    <div style="float: left;position: relative;top: 7px; ;width: 13px;height: 13px;background-image: linear-gradient(0deg, #d60a15 0%,#f37622 100%);border-radius: 13px"></div>\n' +
-    '                    <div style="font-size: 18px;color: #585858;">\n' +
+    '                    <div style="font-size: 18px;color: #585858;margin-right: 60px;">\n' +
     '                        一码搞定·无手续费\n' +
     '                    </div>\n' +
     '                </div>\n' +
@@ -117,9 +117,9 @@ var firstOldHtml = '<div style="height: 125px;">\n' +
     '                    </div>\n' +
     '                </div>';
 
-var secondNewHtml = '<div style="margin-left: 110px;position: relative">\n' +
+var secondNewHtml = '<div style="padding-left: 100px;position: relative">\n' +
     '                    <div style="float: left;position: relative;top: 7px; ;width: 13px;height: 13px;background-image: linear-gradient(0deg, #d60a15 0%,#f37622 100%);border-radius: 13px"></div>\n' +
-    '                    <div style="font-size: 18px;color: #585858;">\n' +
+    '                    <div style="font-size: 18px;color: #585858;margin-right: 60px;">\n' +
     '                        银行清分·安全靠谱\n' +
     '                    </div>\n' +
     '                </div>\n' +
@@ -148,9 +148,9 @@ var secondOldHtml = '<div style="height: 125px">\n' +
     '                    </div>\n' +
     '                </div>';
 
-var thirdNewHtml = '<div style="margin-left: 110px;position: relative">\n' +
+var thirdNewHtml = '<div style="padding-left: 140px;position: relative">\n' +
     '                    <div style="float: left;position: relative;top: 7px; ;width: 13px;height: 13px;background-image: linear-gradient(0deg, #d60a15 0%,#f37622 100%);border-radius: 13px"></div>\n' +
-    '                    <div style="font-size: 18px;color: #585858;">\n' +
+    '                    <div style="font-size: 18px;color: #585858;margin-right: 120px;">\n' +
     '                        语音播报\n' +
     '                    </div>\n' +
     '                </div>\n' +
