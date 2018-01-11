@@ -1,4 +1,3 @@
-$(function () {
     var pay = $('#merchant-pay-first');
     var bank = $('#merchant-bank-second');
     var voice = $('#merchant-voice-third');
@@ -11,7 +10,7 @@ $(function () {
 
         },
         function () {
-            pay.css('padding', '95px 15px 0px 15px');
+            pay.css('padding', '94px 15px 72px 15px');
             pay.html('');
             pay.html(firstOldHtml);
         }
@@ -24,7 +23,7 @@ $(function () {
 
         },
         function () {
-            bank.css('padding', '95px 15px 0px 15px');
+            bank.css('padding', '94px 15px 72px 15px');
             bank.html('');
             bank.html(secondOldHtml);
         }
@@ -36,7 +35,7 @@ $(function () {
             voice.html(thirdNewHtml);
         },
         function () {
-            voice.css('padding', '95px 15px 0px 15px');
+            voice.css('padding', '94px 15px 72px 15px');
             voice.html('');
             voice.html(thirdOldHtml);
         }
@@ -51,7 +50,7 @@ $(function () {
 
         },
         function () {
-            accountFirst.css('padding-bottom', '0px');
+            accountFirst.css('padding-bottom', '57px');
             accountFirst.html('');
             accountFirst.html(fisrtAccountOldHtml);
         }
@@ -66,7 +65,7 @@ $(function () {
 
         },
         function () {
-            accountSecond.css('padding-bottom', '0px');
+            accountSecond.css('padding-bottom', '57px');
             accountSecond.html('');
             accountSecond.html(secondAccountOldHtml);
         }
@@ -81,12 +80,11 @@ $(function () {
 
         },
         function () {
-            accountThird.css('padding-bottom', '0px');
+            accountThird.css('padding-bottom', '57px');
             accountThird.html('');
             accountThird.html(thirdAccountOldHtml);
         }
     );
-});
 
 var firstNewHtml = '<div style="margin-left: 110px;position: relative">\n' +
     '                    <div style="float: left;position: relative;top: 7px; ;width: 13px;height: 13px;background-image: linear-gradient(0deg, #d60a15 0%,#f37622 100%);border-radius: 13px"></div>\n' +
