@@ -1,4 +1,10 @@
 $(function () {
+        //计数器初始化
+    $('.counter').countUp({
+        delay: 10,
+        time: 2000
+    });
+
     //显示二维码
     $("#btn-index-contact").tooltip({
         html : true,
@@ -17,11 +23,7 @@ $(function () {
         placement: 'bottom'
     });
 
-    //计数器初始化
-    $('.counter').countUp({
-        delay: 10,
-        time: 2000
-    });
+
 
     //图一动画
     $("#first-index-div").hover(
@@ -39,10 +41,10 @@ $(function () {
 //图二动画
     $("#second-index-div").hover(
         function () {
-            $("#second-index-img").addClass('animated slideInUp');
+            $("#second-index-img").addClass('animated fadeInLeft');
         },
         function () {
-            $("#second-index-img").removeClass('animated slideInUp');
+            $("#second-index-img").removeClass('animated fadeInLeft');
         }
     );
 
@@ -86,6 +88,15 @@ $(function () {
         }
     );
 
+    //图四动画
+    $("#fourth-index-div").hover(
+        function () {
+            $("#fourth-index-img").addClass('animated fadeInLeft');
+        },
+        function () {
+            $("#fourth-index-img").removeClass('animated fadeInLerf');
+        }
+    );
 
 
     // 图五动画

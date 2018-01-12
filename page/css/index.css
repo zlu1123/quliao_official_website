@@ -13,6 +13,11 @@ body {
 .page-nav-top .container {
     padding-top: 11px;
 }
+.page-nav-top span {
+    font-family: MicrosoftYaHeiLight;
+    font-size: 14px;
+    color: #ffffff;
+}
 .page-nav-top .container a{
     color: #7d7d7d;
     font-size: 14px;
@@ -39,6 +44,9 @@ body {
 .page-nav .container a div {
     padding-bottom:10px;
     border-bottom: 2px solid transparent;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #7d7d7d;
 }
 .page-nav .container a div:hover{
     /*transition:color 1s;*/
@@ -128,7 +136,8 @@ body {
 
 #fourth-index-div {
     height: 680px;
-    background: url("../img/index/index-4.png") no-repeat center center;
+    /*background: url("../img/index/index-4.png") no-repeat center center;*/
+    background-color: #ffffff;
     background-size: cover;
     position: relative;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=8">
-    <title>官方在线商城-Smartisan</title>
+    <title>资弘科技-首页</title>
     <link rel="icon" href="page/img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="page/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="page/css/bootstrap/bootstrap-theme.css">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="page/css/index.css">
     <link rel="stylesheet" type="text/css" href="page/css/zihongpop.css">
 </head>
-<body>
+<body onunload="removeLocalStorage()">
 <script type="text/javascript">
     if (navigator.userAgent.match(/mobile/i)) {
         top.location = 'https://www.zihongkeji.com/app/app_download/app_download.html';
@@ -29,14 +29,14 @@
 
                 <div class="navbar-text" style="margin-top: 10px;">
                     <span style="color: #ffffff;">至今拥有</span>
-                    <span style="color: #ffffff; font-size: 20px" class="counter">78921</span>
+                    <span style="color: #ffffff; font-size: 20px" class="counter">98</span>
                     <span style="color: #ffffff;">家网点</span>
                 </div>
             </li>
             <li>
                 <div class="navbar-text" style="margin-top: 10px;">
                     <span style="color: #ffffff;">累积服务</span>
-                    <span style="color: #ffffff; font-size: 20px" class="counter">5264325</span>
+                    <span style="color: #ffffff; font-size: 20px" class="counter">1058</span>
                     <span style="color: #ffffff;">家便利店</span>
                 </div>
             </li>
@@ -211,29 +211,43 @@
     </div>
     <div id="fourth-index-div" style="margin-top: 20px;">
         <div class="container">
-            <div style="padding-top: 155px;text-align: left;">
-                <div style="font-size: 25px;color: #313131;">多维度轻量级移动营销工具</div>
-            </div>
-            <div style="margin-top: 19px">
-                <div style="float: left;">
-                    <div style="background-color: #ffd800; width: 50px;height: 5px;">
+            <div class="col-md-6">
+                <div style="padding-top: 155px;text-align: left;">
+                    <div style="font-size: 25px;color: #313131;">多维度轻量级移动营销工具</div>
+                </div>
+                <div style="margin-top: 19px">
+                    <div style="float: left;">
+                        <div style="background-color: #ffd800; width: 50px;height: 5px;">
+                        </div>
+                    </div>
+                    <div style="float: left;">
+                        <div style="background-color: #01bcf8; width: 50px;height: 5px;"></div>
                     </div>
                 </div>
-                <div style="float: left;">
-                    <div style="background-color: #01bcf8; width: 50px;height: 5px;"></div>
+                <div style="margin-top: 63px;font-size: 19px;color: #7d7d7d;">
+                    <div>不仅为供应商打造公众号+小程序快捷轻量线上商城</div>
+                    <div>更免费提供专属二维码名片等多种产品</div>
+                    <div>组合出击轻松实现便利店主留存</div>
+                </div>
+                <div style="margin-top: 61px;">
+                    <button class="know-more"
+                            style="width: 104px;
+                            height: 31px;
+                            background-color: #01bcf8;
+                            border-radius: 10px;border-radius: 10px;border: solid 1px #01bcf8;outline: none">
+                        <div  style="font-size: 16px;color: #ffffff;">
+                            了解详情
+                        </div>
+
+                    </button>
                 </div>
             </div>
-            <div style="margin-top: 63px;font-size: 19px;color: #7d7d7d;">
-                <div>不仅为供应商打造公众号+小程序快捷轻量线上商城</div>
-                <div>更免费提供专属二维码名片等多种产品</div>
-                <div>组合出击轻松实现便利店主留存</div>
+            <div class="col-md-6">
+                <div style="padding-top:173px;text-align: left">
+                    <img id="fourth-index-img" src="page/img/index/index-4-phone.png" class="center-block animated">
+                </div>
             </div>
-            <div style="margin-top: 61px;">
-                <button class="know-more"
-                        style="font-size: 20px;color: #7d7d7d;border: solid 1px #313131;background-color: transparent; border-radius: 18px; height: 37px;width: 136px;outline: none">
-                    了解详情
-                </button>
-            </div>
+
         </div>
     </div>
     <div id="fifth-index-div" style="margin-top: 20px;height: 680px;background-color: #ffffff;">
@@ -345,7 +359,7 @@
             </div>
         </div>
     </div>
-    <div style="background-color: #ffffff;margin-top: 18px;">
+    <div style="background-color: #ffffff;margin-top: 18px;padding-bottom: 105px">
         <div class="container" style="padding-top: 70px">
             <div class="row" style="font-family: MicrosoftYaHei;font-size: 17px;color: #797878;">
                 <div class="col-md-1" style="width: 5%"></div>
