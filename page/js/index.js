@@ -181,6 +181,25 @@ function toDownAppUrl() {
     $(location).attr('href', 'https://www.zihongkeji.com/app/app_download/app_download.html');
 }
 
+$("#first-information-btn").hover(
+    function () {
+        $("#first-information-btn").css(hoverCss);
+    },
+    function () {
+        $("#first-information-btn").css(oldCss);
+    }
+);
+var hoverCss = {
+    border: "0px solid #ffffff",
+    "background-image": "linear-gradient(60deg,#d91512 0%,#fb7719 100%)",
+    color: "#f7fbfe"
+};
+var oldCss = {
+    'border': '1px solid #d91015',
+    'background-image': 'none',
+    'color': '#d70b15'
+};
+
 
 
 

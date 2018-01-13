@@ -245,9 +245,53 @@ $(function () {
             accountThird.html(thirdAccountOldHtml);
         }
     );
-
-
 });
+
+$("#first-merchant-btn").hover(
+    function () {
+        $("#first-merchant-btn").css(hoverCss);
+    },
+    function () {
+        $("#first-merchant-btn").css(oldCss);
+    }
+);
+$("#second-merchant-btn").hover(
+    function () {
+        $("#second-merchant-btn").css(hoverCss);
+    },
+    function () {
+        $("#second-merchant-btn").css(oldCss);
+    }
+);
+$("#third-merchant-btn").hover(
+    function () {
+        $("#third-merchant-btn").css(hoverCss);
+    },
+    function () {
+        $("#third-merchant-btn").css(oldCss);
+    }
+);
+
+$("#first-information-btn").hover(
+    function () {
+        $("#first-information-btn").css(hoverCss);
+    },
+    function () {
+        $("#first-information-btn").css(oldCss);
+    }
+);
+
+var hoverCss = {
+    border: "0px solid #ffffff",
+    "background-image": "linear-gradient(60deg,#d91512 0%,#fb7719 100%)",
+    color: "#f7fbfe"
+};
+
+var oldCss = {
+    'border': '1px solid #d91015',
+    'background-image': 'none',
+    'color': '#d70b15'
+};
 
 
 

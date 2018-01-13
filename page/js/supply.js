@@ -67,11 +67,45 @@ $(function () {
         }
     );
 
-
-
     $('.supply-know-more').click(function () {
         $('.theme-popover-mask').fadeIn(100);
         $('.theme-popover-background').slideDown(200);
     });
 
-})
+});
+$("#first-supply-btn").hover(
+    function () {
+        $("#first-supply-btn").css(hoverCss);
+    },
+    function () {
+        $("#first-supply-btn").css(oldCss);
+    }
+);
+$("#second-supply-btn").hover(
+    function () {
+        $("#second-supply-btn").css(hoverCss);
+    },
+    function () {
+        $("#second-supply-btn").css(oldCss);
+    }
+);
+$("#third-supply-btn").hover(
+    function () {
+        $("#third-supply-btn").css(hoverCss);
+    },
+    function () {
+        $("#third-supply-btn").css(oldCss);
+    }
+);
+
+var hoverCss = {
+    border: "solid 1px #01bcf8",
+    "background-color": "#01bcf8",
+    color: "#ffffff"
+};
+
+var oldCss = {
+    'border': 'solid 1px #313131',
+    'background-color': 'transparent',
+    'color': '#7d7d7d'
+};
