@@ -1,3 +1,11 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     top: 0;
     left: 0;
@@ -109,11 +117,11 @@ body {
 }
 
 .display-inline {
-    display:inline
+    display:inline;
 }
 
 .inline-distance {
-    margin: 0 25px;
+    margin: 0 33px;
 }
 
 .inline-distance-left {
@@ -157,7 +165,7 @@ body {
 }
 .footer-color:hover{
     text-decoration: none;
-    color: #e95c12;
+    color: #e95c12;;
 }
 .footer-color:visited{
     text-decoration: none;
