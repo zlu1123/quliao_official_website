@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=8">
-    <title>趣撩小店</title>
+    <meta name="Keywords" Content="趣撩,趣撩小店,车销,零售供应商,拓店,供应平台,线上供应,商品管理,运营报表,物流,业务平台,供应体系,供应链,线上批发,批发商城,移动营销,信息化">
+    <title>资弘科技-趣撩小店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-免费的零售供应链一站式服务平台：线上供应，移动营销，业务管理，快捷车销</title>
     <link rel="icon" href="page/img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="page/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="page/css/bootstrap/bootstrap-theme.css">
@@ -11,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="page/css/index.css">
     <link rel="stylesheet" type="text/css" href="page/css/zihongpop.css">
 </head>
-<body onunload="removeLocalStorage()">
+<body>
 <script type="text/javascript">
     if (navigator.userAgent.match(/mobile/i)) {
         top.location = 'https://www.zihongkeji.com/app/app_download/app_download.html';
@@ -29,7 +30,7 @@
 
                 <div class="navbar-text" style="margin-top: 10px;">
                     <span style="color: #ffffff;">至今拥有</span>
-                    <span style="color: #ffffff; font-size: 20px" class="counter">98</span>
+                    <span class="counter" style="color: #ffffff; font-size: 20px" >98</span>
                     <span style="color: #ffffff;">家网点</span>
                 </div>
             </li>
@@ -53,7 +54,7 @@
             <ul class="nav navbar-nav navbar-text">
                 <li>
                     <a href="#" style="color: #e95c12;">
-                        <div style="padding-bottom:10px;border-bottom: 2px solid #e95c12">趣撩小店</div>
+                        <div style="padding-bottom:10px;border-bottom: 2px solid #e95c12;color: #e95c12;">趣撩小店</div>
                     </a>
                 </li>
                 <li>
@@ -211,7 +212,7 @@
     </div>
     <div id="fourth-index-div" style="margin-top: 20px;">
         <div class="container">
-            <div class="col-md-5">
+            <div class="col-md-5" style=" width: 38%;margin-right: 0;padding-left: 0;padding-right: 0px;">
                 <div style="padding-top: 155px;text-align: left;">
                     <div style="font-size: 25px;color: #313131;">多维度轻量级移动营销工具</div>
                 </div>
@@ -239,7 +240,7 @@
                     <!--</button>-->
                 <!--</div>-->
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="margin-left: 0;padding-left: 0;">
                 <div style="padding-top:173px;text-align: left">
                     <img id="fourth-index-img" src="page/img/index/index-4-phone.png" class="animated ">
                 </div>
@@ -360,33 +361,25 @@
             <!--</div>-->
         </div>
     </div>
-    <div style="background-color: #ffffff;margin-top: 18px;padding-bottom: 105px;position: relative">
+    <div style="background-color: #ffffff;margin-top: 18px;padding-bottom: 105px">
         <div class="container" style="padding-top: 70px">
             <div class="row" style="font-family: MicrosoftYaHei;font-size: 17px;color: #797878;">
-                <div class="col-md-1" style="width: 5%"></div>
-                <div class="col-md-10" style="width:90%;text-align: center;padding-left: 0;padding-right: 0">
+                <div class="col-md-1"></div>
+                <div class="col-md-10" style="text-align: center;padding-left: 0;padding-right: 0;position: relative">
                     <div>
-                        <div class="display-inline" type="button"  data-toggle="tooltip"
-                             data-placement="bottom"
-                             title='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
+                        <div id="index-footer-merchant" class="display-inline">
                             趣撩掌柜（商户端）
                         </div>
                         <div class="display-inline inline-distance">|</div>
-                        <div class="display-inline" type="button" id="index-QR-code" data-toggle="tooltip"
-                             data-placement="bottom"
-                             title='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
+                        <div id="index-footer-supply" class="display-inline">
                             趣撩供应平台（供应端）
                         </div>
                         <div class="display-inline inline-distance">|</div>
-                        <div class="display-inline" id="merchant-QR-code" data-toggle="tooltip"
-                             data-placement="bottom"
-                             title='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
+                        <div class="display-inline">
                             商户加盟
                         </div>
                         <div class="display-inline inline-distance">|</div>
-                        <div class="display-inline" id="supply-QR-code" data-toggle="tooltip"
-                             data-placement="bottom"
-                             title='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
+                        <div class="display-inline">
                             供应商加盟
                         </div>
                         <div class="display-inline inline-distance">|</div>
@@ -394,7 +387,16 @@
                         <div class="display-inline inline-distance">|</div>
                         <div class="display-inline">投诉建议</div>
                     </div>
-                    <div style="margin-top: 89px;text-align: right;">
+                    <div id="index-tip-merchant" style="visibility: hidden;position: absolute;left: 2%">
+                        <img src="page/img/index/index-merchant.png" alt="">
+                    </div>
+                    <div id="index-tip-supply" style="visibility: hidden;position: absolute;left: 25%">
+                        <img src="page/img/index/index-supply.png" alt="">
+                    </div>
+                    <div id="index-tip-online" style="visibility: hidden;position: absolute;bottom: 20%;right: 2%;">
+                        <img src="page/img/index/index-online.png" alt="">
+                    </div>
+                    <div style="padding-top: 89px;text-align: right;">
                         <div style="font-size: 38px;color: #797878;">
                             <div>
                                 400-8619-882
@@ -409,13 +411,20 @@
                     <div style="margin-top: 16px">
                         <div class="col-md-4" style="text-align: left;padding-left: 0;padding-right: 0;">
                             <div style="font-size: 14px;font-family: MicrosoftYaHeiLight;color: #9b9b9b;">
-                                <div class="display-inline">聚合支付</div>
+                                <div class="display-inline" onclick='window.open("index.html","_self") '>
+                                    <a class="footer-color">趣撩小店</a></div>
                                 <div class="display-inline">|</div>
-                                <div class="display-inline">会员营销</div>
+                                <div class="display-inline" onclick='window.open("page/merchant.html","_self") '>
+                                    <a class="footer-color">我是商户</a></div>
                                 <div class="display-inline">|</div>
-                                <div class="display-inline">趣撩供应</div>
+                                <div class="display-inline" onclick='window.open("page/supply.html","_self") '>
+                                    <a class="footer-color">我是供应商</a></div>
                                 <div class="display-inline">|</div>
-                                <div class="display-inline">趣撩掌柜APP</div>
+                                <div class="display-inline" onclick='window.open("page/about.html","_self") '>
+                                    <a class="footer-color">关于我们</a></div>
+                                <div class="display-inline">|</div>
+                                <div class="display-inline" onclick='window.open("page/information.html","_self") '>
+                                    <a class="footer-color">资讯</a></div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -428,16 +437,14 @@
                         </div>
                         <div class="col-md-2"></div>
                         <div class="col-md-2" id="zihong-statement">
-                            <button id="btn-index-contact" class="btn" data-toggle="tooltip"
-                                    data-placement="top"
-                                    title='<img src="page/img/index/zihong-code.png" class="img-responsive">'>
+                            <button id="btn-index-contact">
                                 <img src="page/img/index/index-7.png">
                                 <span>在线客服</span>
                             </button>
                         </div>
                     </div>
                     <div style="text-align: left;font-family: MicrosoftYaHeiLight;font-size: 10px;color: #bab9b9;">
-                        2016-2018&nbsp;17quliao.com&nbsp;版权所有
+                        ©2016-2018&nbsp;17quliao.com&nbsp;沪ICP备17002420号&nbsp;版权所有
                     </div>
                 </div>
                 <div class="col-md-1" style="width: 5%"></div>

@@ -113,7 +113,7 @@ body {
 }
 
 .inline-distance {
-    margin: 0 33px;
+    margin: 0 25px;
 }
 
 .inline-distance-left {
@@ -150,6 +150,17 @@ body {
 }
 .tooltip-inner {
     background: #ffffff;
-    border: 1px solid #eeeeee;
+}
+
+.footer-color {
+    color: #9b9b9b;
+}
+.footer-color:hover{
+    text-decoration: none;
+    color: #e95c12;
+}
+.footer-color:visited{
+    text-decoration: none;
+    color: #e95c12;
 }
 

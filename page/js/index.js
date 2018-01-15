@@ -1,27 +1,40 @@
 $(function () {
-        //计数器初始化
+    //计数器初始化
     $('.counter').countUp({
-        delay: 10,
-        time: 2000
+        'delay': 1,
+        'time': 100
     });
-
     //显示二维码
-    $("#btn-index-contact").tooltip({
-        html : true,
-        placement: 'top'
-    });
-    $("#index-QR-code").tooltip({
-        html : true,
-        placement: 'bottom'
-    });
-    $("#merchant-QR-code").tooltip({
-        html : true,
-        placement: 'bottom'
-    });
-    $("#supply-QR-code").tooltip({
-        html : true,
-        placement: 'bottom'
-    });
+    $("#index-footer-merchant").hover(
+        function () {
+            $("#index-tip-merchant").css('visibility','visible');
+            $("#index-footer-merchant").css('color','#d91015');
+
+        },
+        function () {
+            $("#index-tip-merchant").css('visibility','hidden');
+            $("#index-footer-merchant").css('color','');
+        }
+    );
+    $("#index-footer-supply").hover(
+        function () {
+            $("#index-tip-supply").css('visibility','visible');
+            $("#index-footer-supply").css('color','#d91015');
+
+        },
+        function () {
+            $("#index-tip-supply").css('visibility','hidden');
+            $("#index-footer-supply").css('color','');
+        }
+    );
+    $("#zihong-statement").hover(
+        function () {
+            $("#index-tip-online").css('visibility','visible');
+        },
+        function () {
+            $("#index-tip-online").css('visibility','hidden');
+        }
+    );
 
 
 
