@@ -25,18 +25,18 @@ $(function () {
 
 
 
-    //图一动画
-    $("#first-index-div").hover(
-        function () {
-            $("#first-index-img").addClass('bounceIn');
-            $("#first-index-text").addClass('animated bounceIn');
-
-        },
-        function () {
-            $("#first-index-img").removeClass('bounceIn');
-            $("#first-index-text").removeClass('animated bounceIn');
-        }
-    );
+    // //图一动画
+    // $("#first-index-div").hover(
+    //     function () {
+    //         $("#first-index-img").addClass('bounceIn');
+    //         $("#first-index-text").addClass('animated bounceIn');
+    //
+    //     },
+    //     function () {
+    //         $("#first-index-img").removeClass('bounceIn');
+    //         $("#first-index-text").removeClass('animated bounceIn');
+    //     }
+    // );
 
 //图二动画
     $("#second-index-div").hover(
@@ -94,7 +94,7 @@ $(function () {
             $("#fourth-index-img").addClass('animated fadeInLeft');
         },
         function () {
-            $("#fourth-index-img").removeClass('animated fadeInLerf');
+            $("#fourth-index-img").removeClass('animated fadeInLeft');
         }
     );
 
@@ -181,6 +181,45 @@ function toDownAppUrl() {
     $(location).attr('href', 'https://www.zihongkeji.com/app/app_download/app_download.html');
 }
 
+$("#first-index-btn").hover(
+    function () {
+        $("#first-index-btn").css(hoverBlueCss);
+    },
+    function () {
+        $("#first-index-btn").css(oldBlueCss);
+    }
+);
+$("#second-index-btn").hover(
+    function () {
+        $("#second-index-btn").css(hoverBlueCss);
+    },
+    function () {
+        $("#second-index-btn").css(oldBlueCss);
+    }
+);
+$("#third-index-btn").hover(
+    function () {
+        $("#third-index-btn").css(hoverBlueCss);
+    },
+    function () {
+        $("#third-index-btn").css(oldBlueCss);
+    }
+);
+
+var hoverBlueCss = {
+    border: "solid 1px #01bcf8",
+    "background-color": "#01bcf8",
+    color: "#ffffff"
+};
+
+var oldBlueCss = {
+    'border': 'solid 1px #313131',
+    'background-color': 'transparent',
+    'color': '#7d7d7d'
+};
+
+
+//information
 $("#first-information-btn").hover(
     function () {
         $("#first-information-btn").css(hoverCss);

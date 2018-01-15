@@ -113,7 +113,7 @@ body {
 }
 
 .inline-distance {
-    margin: 0 62px;
+    margin: 0 33px;
 }
 
 .inline-distance-left {
@@ -150,5 +150,6 @@ body {
 }
 .tooltip-inner {
     background: #ffffff;
+    border: 1px solid #eeeeee;
 }
 

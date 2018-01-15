@@ -7,7 +7,7 @@ $(function () {
     var firstNewHtml = '<div style="padding-left: 100px;position: relative">\n' +
         '                    <div style="float: left;position: relative;top: 7px; ;width: 13px;height: 13px;background-image: linear-gradient(0deg, #d60a15 0%,#f37622 100%);border-radius: 13px"></div>\n' +
         '                    <div style="font-size: 18px;color: #585858;margin-right: 60px;">\n' +
-        '                        一码搞定·无手续费\n' +
+        '                        一码搞定·快速便捷\n' +
         '                    </div>\n' +
         '                </div>\n' +
         '                <div style="margin-top: 40px;height: 50px;text-align: center">\n' +
@@ -42,7 +42,7 @@ $(function () {
         '                    </div>\n' +
         '                </div>\n' +
         '                <div style="margin-top: 40px;height: 50px;text-align: center">\n' +
-        '                    <img src="img/merchant/merchant-2-4-1.png" alt="">\n' +
+        '                    <img src="img/merchant/merchant-2-4-2.png" alt="">\n' +
         '                </div>\n' +
         '                <div style="margin-top: 34px;height: 152px;background-color: #d8eaf8;">\n' +
         '                    <div style="padding-top: 47px;font-size: 14px;color: #6a7d8c;">\n' +
@@ -73,7 +73,7 @@ $(function () {
         '                    </div>\n' +
         '                </div>\n' +
         '                <div style="margin-top: 40px;height: 50px;text-align: center">\n' +
-        '                    <img src="img/merchant/merchant-2-4-1.png" alt="">\n' +
+        '                    <img src="img/merchant/merchant-2-4-3.png" alt="">\n' +
         '                </div>\n' +
         '                <div style="margin-top: 34px;height: 152px;background-color: #d8eaf8;">\n' +
         '                    <div style="padding-top: 47px;font-size: 14px;color: #6a7d8c;">\n' +
